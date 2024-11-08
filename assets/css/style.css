@@ -4,6 +4,9 @@
     box-sizing:border-box;
 }
 
+body{
+    background:linear-gradient(40deg, rgb(1, 45, 134), 70%, rgb(1, 9, 26) );
+}
 
 .grid-layout{
     display:grid;
@@ -17,7 +20,12 @@
 }
 
 .grid-layout > div {
+    border-radius:3px;
     border:1px solid black;
+    background:linear-gradient(30deg, white, 98%, rgb(145, 145, 145));
+    box-shadow:1px 2px 2px 0px black,
+               1px 3px 10px 0px black inset;
+
 }
 
 
@@ -25,7 +33,6 @@
 .grid-layout > div.grid-main{
     grid-row:2/5;
 }
-.grid-layout > div.grid-right-bar
-{
-    
+.grid-layout > div.grid-right-bar{
+
 }
