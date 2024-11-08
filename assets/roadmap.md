@@ -4,7 +4,7 @@
 - [ ] *Quadro*
 - [ ] *Tasks*
 - [ ] *Script de clicar nos botões*
-- [ ] *assets básicos*
+- [X] *assets básicos*
 
 
 # Estilização

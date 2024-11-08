@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+.grid-layout{
+    display:grid;
+    border:1px solid red;
+    height:100vh;
+    grid-template-columns:1fr 0.3fr;
+    grid-template-rows:3.2rem 1.4fr ;
+    padding:10px;
+    gap:10px;
+
+}
+
+.grid-layout > div {
+    border:1px solid black;
+}
+
+
+
+.grid-layout > div.grid-main{
+    grid-row:2/5;
+}
+.grid-layout > div.grid-right-bar
+{
+    
+}
