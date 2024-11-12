@@ -1,24 +1,31 @@
+____________________________________
+[  ]  [  ]  [  ] [  ] [  ] [  ] [  ]
+||||||||||||| Todo List |||||||||||||
+[  ]  [  ]  [  ] [  ] [  ] [  ] [  ]
+____________________________________
+
+
 # Estrutura do site
 - [X] *layout grid*
 - [X] *Header*
 - [X] *Quadro*
 - [ ] *Tasks*
 - [ ] *Script de clicar nos botões*
-- [X] *assets básicos*
+- [ ] *assets básicos*
 
 
 # Estilização
 - [X] *Cores do site*
 - [X] *icone do site*
 - [ ] *Fonts*
+- [X] *Botões das tasks*
 - [ ] *Imagens transparente*
-- [ ] *Cores do botão*
+- [X] *Cores do botão*
 
 
-
-
-____________________________________
-[  ]  [  ]  [  ] [  ] [  ] [  ] [  ]
-||||||||||||| Todo List |||||||||||||
-[  ]  [  ]  [  ] [  ] [  ] [  ] [  ]
-____________________________________
+# Script JS
+- [ ] *Adicionar Task*
+- [ ] *Remover Task*
+- [ ] *Marcar como Feito*
+- [ ] *Não feita / Excluir*
+- [ ] *"Em progresso"*

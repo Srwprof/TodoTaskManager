@@ -2,10 +2,12 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
     background:linear-gradient(40deg, rgb(1, 45, 134), 70%, rgb(1, 9, 26) );
+    
 }
 
 /* layout básico e estilização */
@@ -23,7 +25,6 @@ body{
 .grid-layout > div {
     border-radius:3px;
     border:1px solid black;
-    background:linear-gradient(30deg, white, 98%, rgb(145, 145, 145));
     box-shadow:1px 2px 2px 0px black,
                1px 3px 10px 0px black inset;
 
@@ -44,7 +45,7 @@ body{
     display:flex;
     flex-direction:column;
     justify-content:center;
-
+    background:rgb(241, 241, 241);
 }
 .grid-header > ul {
     display:flex;
@@ -52,6 +53,8 @@ body{
     width:80%;
     margin:0 auto;
 }
+
+
 
 .grid-header > ul > button{
     padding:7px 3rem;
@@ -85,21 +88,29 @@ body{
      background:linear-gradient(40deg,  rgb(1, 0, 3), 50%, rgb(32, 24, 37));
 }
 
+
+/* botões de task */
 .grid-layout > .grid-right-bar{
     display:flex;
+    padding:30px;
     justify-content:space-evenly;
-    border:1px solid red;
+    background:rgb(241, 241, 241);
 }
 
 .grid-right-bar > button{
-    padding:0.6rem;
+    gap:10px;
     align-self:center;
     font-weight:bolder;
     border:none;
+    display:flex;
+    justify-content:space-between0;
+    align-items:center;
     transition:0.3s;
+    padding:10px 10px;
     outline:none;
+    width:40%;
     border-radius:2px;
-    box-shadow:-2px 1px 1px 3px black;
+    box-shadow:-2px 1px 1px 3px rgb(14, 13, 13);
 }
 
 .grid-right-bar > button:hover{
@@ -107,6 +118,72 @@ body{
     transition:0.3s;
     cursor: pointer;
     color:white;
-    background-color:black;
+    background-color:rgb(75, 69, 69);
     box-shadow:transparent;
+}
+
+.grid-right-bar > button > img {
+    
+}
+
+/* botões de task */
+
+/* task */
+.grid-layout > .grid-main {
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    flex-direction:column;
+    background:linear-gradient(30deg, rgb(184, 210, 228), 10%, rgb(221, 255, 238));
+}
+
+.grid-main > i.task{  
+    margin-top:10px;
+    padding:4px;
+    display:flex;
+    justify-content:space-evenly;
+    border-end-end-radius:7px;
+    border-end-start-radius:8px;
+    width:50%;
+
+    background:linear-gradient(30deg, rgb(50, 83, 107), 10%, rgb(124, 136, 130));
+    text-align:center;
+    box-shadow:2px 1px 2px 0px black;
+    transition:0.3s;
+    align-items:center;
+    font-weight:bolder;
+    border:3px solid black;
+    
+}
+
+.grid-main > i.task:hover{
+    transition:0.3s;
+    transform:scale(1.1);
+    background:linear-gradient(30deg, rgb(100, 149, 184), 10%, rgb(215, 235, 224));;
+}
+
+i.task > div > button {
+    border:none;
+    outline:none;
+    box-shadow:0px 2px 1px 1px black;
+    border:1px solid black;
+    padding:5px 10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+i.task > div > button:hover:first-child{
+    background-color:rgb(96, 228, 78);
+    transition:0.3s;
+}
+
+
+i.task > div > button:hover:nth-child(2){
+    background-color:rgb(180, 19, 19);
+    transition:0.3s;
+}
+
+i.task > div > button:hover:nth-child(3){
+    background-color:rgb(233, 216, 60);
+    transition:0.3s;
 }
