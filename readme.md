@@ -1,6 +1,6 @@
-<h1 style="text-align:center;">TodoList Manager</h1>
+<h1 align=":center;">TodoList Manager</h1>
 
-<p style="align-text:center;">É um projeto que visa fazer uma aplicação WEB
+<p align=":center;">É um projeto que visa fazer uma aplicação WEB
 que auxiliar na realização de tarefas do dia a dia, porém separado pelos horários do dia<br>
 sendo eles:</p>
 
